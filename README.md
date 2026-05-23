@@ -79,6 +79,8 @@ You can search, filter, and discover all these on `/discover`!
 ![TikTok](https://img.shields.io/badge/TikTok-000000?style=flat-square&logo=tiktok&logoColor=white)
 ![Pinterest](https://img.shields.io/badge/Pinterest-BD081C?style=flat-square&logo=pinterest&logoColor=white)
 ![DeviantArt](https://img.shields.io/badge/DeviantArt-05CC47?style=flat-square&logo=deviantart&logoColor=white)
+![OnlyFans](https://img.shields.io/badge/OnlyFans-00AFF0?style=flat-square&logo=onlyfans&logoColor=white)
+![Fansly](https://img.shields.io/badge/Fansly-5B9CF6?style=flat-square&logo=fansly&logoColor=white)
 
 ### Development & Work
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)

@@ -342,5 +342,21 @@
     "icon": "epicgames",
     "color": "0,0%,100%",
     "category": "gaming"
+  },
+  {
+    "id": "onlyfans",
+    "title": "OnlyFans",
+    "subtitle": "Exclusive content subscription",
+    "icon": "onlyfans",
+    "color": "196.2,100%,47.1%",
+    "category": "social"
+  },
+  {
+    "id": "fansly",
+    "title": "Fansly",
+    "subtitle": "Interactive fan platform",
+    "icon": "fansly",
+    "color": "214.8,89.8%,65.9%",
+    "category": "social"
   }
 ]
