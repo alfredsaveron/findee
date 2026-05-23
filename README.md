@@ -3,7 +3,13 @@
 [![Astro](https://img.shields.io/badge/Astro-v4.16-FF5D01?style=flat-square&logo=astro&logoColor=white)](https://astro.build/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE.md)
 
-A lightweight, premium, self-hosted **Linktree alternative** built with **Astro**. Optimized for speed, visuals, and dynamic configuration.
+A lightweight, self-hosted **Linktree alternative** built with **Astro**. Optimized for speed, visuals, and dynamic configuration.
+
+<p align="center">
+  <img src="img/1.png" alt="Demo Profile" width="47%" />
+  &nbsp;&nbsp;
+  <img src="img/2.png" alt="Discover Page" width="47%" />
+</p>
 
 ## Key Features
 - ⚙️ **JSON-Driven Profile:** Update your bio, social connections, and URLs in one place (`src/data/profile.json`). No coding needed.
