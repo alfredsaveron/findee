@@ -1,0 +1,346 @@
+[
+  {
+    "id": "portfolio",
+    "title": "Portfolio",
+    "subtitle": "Personal website & portfolio",
+    "icon": "portfolio",
+    "color": "315.12,49.8%,50%",
+    "category": "development"
+  },
+  {
+    "id": "twitter",
+    "title": "Twitter / X",
+    "subtitle": "Short-form social updates",
+    "icon": "twitter",
+    "color": "205.64,95.26%,49.61%",
+    "category": "social"
+  },
+  {
+    "id": "instagram",
+    "title": "Instagram",
+    "subtitle": "Photos, stories & reels",
+    "icon": "instagram",
+    "color": "340.11,75.05%,54.71%",
+    "category": "social"
+  },
+  {
+    "id": "github",
+    "title": "GitHub",
+    "subtitle": "Code repositories & work",
+    "icon": "github",
+    "color": "0,0%,100%",
+    "category": "development"
+  },
+  {
+    "id": "gitlab",
+    "title": "GitLab",
+    "subtitle": "Git projects & collaboration",
+    "icon": "gitlab",
+    "color": "19.6,97.4%,56.9%",
+    "category": "development"
+  },
+  {
+    "id": "discord",
+    "title": "Discord",
+    "subtitle": "Chat servers & communities",
+    "icon": "discord",
+    "color": "234.94,85.56%,64.71%",
+    "category": "gaming"
+  },
+  {
+    "id": "linkedin",
+    "title": "LinkedIn",
+    "subtitle": "Professional bio & career",
+    "icon": "linkedin",
+    "color": "205.64,95.26%,49.61%",
+    "category": "development"
+  },
+  {
+    "id": "spotify",
+    "title": "Spotify",
+    "subtitle": "Music, albums & playlists",
+    "icon": "simple-icons:spotify",
+    "color": "141.37,95.1%,48.04%",
+    "category": "music"
+  },
+  {
+    "id": "reddit",
+    "title": "Reddit",
+    "subtitle": "Communities & discussions",
+    "icon": "simple-icons:reddit",
+    "color": "15.76,100%,50%",
+    "category": "social"
+  },
+  {
+    "id": "youtube",
+    "title": "YouTube",
+    "subtitle": "Videos & creative streams",
+    "icon": "simple-icons:youtube",
+    "color": "0,89.8%,50%",
+    "category": "tv"
+  },
+  {
+    "id": "youtubemusic",
+    "title": "YouTube Music",
+    "subtitle": "Songs, albums & playlists",
+    "icon": "youtubemusic",
+    "color": "0,100%,50%",
+    "category": "music"
+  },
+  {
+    "id": "tiktok",
+    "title": "TikTok",
+    "subtitle": "Short viral videos",
+    "icon": "simple-icons:tiktok",
+    "color": "341.4,89.8%,50%",
+    "category": "social"
+  },
+  {
+    "id": "pinterest",
+    "title": "Pinterest",
+    "subtitle": "Moodboards, pins & ideas",
+    "icon": "pinterest",
+    "color": "354.34,70.36%,46.47%",
+    "category": "social"
+  },
+  {
+    "id": "twitch",
+    "title": "Twitch",
+    "subtitle": "Live gaming broadcasts",
+    "icon": "twitch",
+    "color": "261.27,42.87%,49.41%",
+    "category": "tv"
+  },
+  {
+    "id": "kick",
+    "title": "Kick",
+    "subtitle": "Live video streaming",
+    "icon": "kick",
+    "color": "105,97.5%,54.1%",
+    "category": "tv"
+  },
+  {
+    "id": "steam",
+    "title": "Steam",
+    "subtitle": "Gaming library & reviews",
+    "icon": "simple-icons:steam",
+    "color": "222.67,29.8%,29.61%",
+    "category": "gaming"
+  },
+  {
+    "id": "xbox",
+    "title": "Xbox",
+    "subtitle": "Console gaming profile",
+    "icon": "xbox",
+    "color": "120,60%,40%",
+    "category": "gaming"
+  },
+  {
+    "id": "playstation",
+    "title": "PlayStation",
+    "subtitle": "Trophies & gaming friends",
+    "icon": "playstation",
+    "color": "220,100%,50%",
+    "category": "gaming"
+  },
+  {
+    "id": "nintendo",
+    "title": "Nintendo",
+    "subtitle": "Friend codes & profile",
+    "icon": "nintendo",
+    "color": "355.26,100%,45.1%",
+    "category": "gaming"
+  },
+  {
+    "id": "hypixel",
+    "title": "Hypixel",
+    "subtitle": "Minecraft server profiles",
+    "icon": "lucide:layers",
+    "color": "41.77,75.24%,58.82%",
+    "category": "gaming"
+  },
+  {
+    "id": "habbo",
+    "title": "Habbo",
+    "subtitle": "Virtual hotel profile",
+    "icon": "habbo",
+    "color": "43,98%,54%",
+    "category": "gaming"
+  },
+  {
+    "id": "anilist",
+    "title": "AniList",
+    "subtitle": "Anime & manga tracking",
+    "icon": "lucide:tv",
+    "color": "200.36,65.22%,50.39%",
+    "category": "tv"
+  },
+  {
+    "id": "applemusic",
+    "title": "Apple Music",
+    "subtitle": "Playlists, albums & radio",
+    "icon": "applemusic",
+    "color": "350,100%,55%",
+    "category": "music"
+  },
+  {
+    "id": "soundcloud",
+    "title": "SoundCloud",
+    "subtitle": "Independent audio & tracks",
+    "icon": "soundcloud",
+    "color": "16.32,100%,50%",
+    "category": "music"
+  },
+  {
+    "id": "tidal",
+    "title": "Tidal",
+    "subtitle": "Hi-Fi audio playlists",
+    "icon": "simple-icons:tidal",
+    "color": "293.02,70.49%,23.92%",
+    "category": "music"
+  },
+  {
+    "id": "lastfm",
+    "title": "Last.fm",
+    "subtitle": "Music scrobble tracking",
+    "icon": "lastfm",
+    "color": "0,79.57%,36.47%",
+    "category": "music"
+  },
+  {
+    "id": "crowdin",
+    "title": "Crowdin",
+    "subtitle": "Translation & localization",
+    "icon": "crowdin",
+    "color": "120,34.68%,48.63%",
+    "category": "development"
+  },
+  {
+    "id": "figma",
+    "title": "Figma",
+    "subtitle": "Collaborative UI/UX design",
+    "icon": "figma",
+    "color": "14,89%,53%",
+    "category": "development"
+  },
+  {
+    "id": "behance",
+    "title": "Behance",
+    "subtitle": "Design portfolio showcase",
+    "icon": "behance",
+    "color": "219,100%,54%",
+    "category": "development"
+  },
+  {
+    "id": "dribbble",
+    "title": "Dribbble",
+    "subtitle": "Design shots & portfolio",
+    "icon": "dribbble",
+    "color": "339.6,79.88%,56.67%",
+    "category": "development"
+  },
+  {
+    "id": "codepen",
+    "title": "CodePen",
+    "subtitle": "HTML/CSS/JS code playground",
+    "icon": "codepen",
+    "color": "0,0%,100%",
+    "category": "development"
+  },
+  {
+    "id": "medium",
+    "title": "Medium",
+    "subtitle": "Articles, blogs & stories",
+    "icon": "medium",
+    "color": "0,0%,100%",
+    "category": "development"
+  },
+  {
+    "id": "deviantart",
+    "title": "DeviantArt",
+    "subtitle": "Art portfolio & gallery",
+    "icon": "deviantart",
+    "color": "140,95%,41%",
+    "category": "social"
+  },
+  {
+    "id": "slack",
+    "title": "Slack",
+    "subtitle": "Chat on Slack workspace",
+    "icon": "slack",
+    "color": "300,56%,19%",
+    "category": "development"
+  },
+  {
+    "id": "gmail",
+    "title": "Gmail",
+    "subtitle": "Send me an email",
+    "icon": "gmail",
+    "color": "5,81%,56%",
+    "category": "mail"
+  },
+  {
+    "id": "yandexmail",
+    "title": "Yandex Mail",
+    "subtitle": "Contact via Yandex Mail",
+    "icon": "yandexmail",
+    "color": "0,100%,50%",
+    "category": "mail"
+  },
+  {
+    "id": "protonmail",
+    "title": "Proton Mail",
+    "subtitle": "Secure encrypted email",
+    "icon": "protonmail",
+    "color": "251,100%,64%",
+    "category": "mail"
+  },
+  {
+    "id": "paypal",
+    "title": "PayPal",
+    "subtitle": "Payments & donations",
+    "icon": "simple-icons:paypal",
+    "color": "225.37,74.55%,32.35%",
+    "category": "finance"
+  },
+  {
+    "id": "patreon",
+    "title": "Patreon",
+    "subtitle": "Support my creative work",
+    "icon": "patreon",
+    "color": "16,92.51%,44.51%",
+    "category": "finance"
+  },
+  {
+    "id": "buymeacoffee",
+    "title": "Buy Me a Coffee",
+    "subtitle": "Support with a coffee tip",
+    "icon": "buymeacoffee",
+    "color": "19.6,100%,62.4%",
+    "category": "finance"
+  },
+  {
+    "id": "willhaben",
+    "title": "WillHaben",
+    "subtitle": "Austria marketplace classifieds",
+    "icon": "willhaben",
+    "color": "220,100%,47%",
+    "category": "finance"
+  },
+  {
+    "id": "amazon",
+    "title": "Amazon",
+    "subtitle": "Shopping store wishlist",
+    "icon": "amazon",
+    "color": "36,100%,50%",
+    "category": "finance"
+  },
+  {
+    "id": "epicgames",
+    "title": "Epic Games",
+    "subtitle": "Epic Games profile & store",
+    "icon": "epicgames",
+    "color": "0,0%,100%",
+    "category": "gaming"
+  }
+]

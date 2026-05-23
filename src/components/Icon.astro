@@ -1,0 +1,50 @@
+---
+import { Icon as AstroIcon } from "astro-icon/components";
+
+interface Props {
+  name: string;
+}
+
+const { name } = Astro.props;
+
+const iconMap: Record<string, string> = {
+  portfolio: "lucide:globe",
+  twitter: "simple-icons:twitter",
+  github: "simple-icons:github",
+  discord: "simple-icons:discord",
+  crowdin: "simple-icons:crowdin",
+  linkedin: "simple-icons:linkedin",
+  lastfm: "simple-icons:lastdotfm",
+  deviantart: "simple-icons:deviantart",
+  behance: "simple-icons:behance",
+  figma: "simple-icons:figma",
+  gmail: "simple-icons:gmail",
+  yandexmail: "lucide:mail",
+  protonmail: "simple-icons:proton",
+  slack: "simple-icons:slack",
+  epicgames: "simple-icons:epicgames",
+  instagram: "simple-icons:instagram",
+  pinterest: "simple-icons:pinterest",
+  twitch: "simple-icons:twitch",
+  medium: "simple-icons:medium",
+  dribbble: "simple-icons:dribbble",
+  patreon: "simple-icons:patreon",
+  buymeacoffee: "simple-icons:buymeacoffee",
+  applemusic: "simple-icons:applemusic",
+  soundcloud: "simple-icons:soundcloud",
+  xbox: "simple-icons:xbox",
+  playstation: "simple-icons:playstation",
+  nintendo: "simple-icons:nintendo",
+  gitlab: "simple-icons:gitlab",
+  codepen: "simple-icons:codepen",
+  kick: "simple-icons:kick",
+  habbo: "lucide:gamepad-2",
+  willhaben: "lucide:shopping-bag",
+  amazon: "simple-icons:amazon",
+  youtubemusic: "simple-icons:youtubemusic",
+};
+
+const iconName = iconMap[name] || name;
+---
+
+<AstroIcon name={iconName} width="20" height="20" />

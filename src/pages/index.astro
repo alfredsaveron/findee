@@ -1,0 +1,54 @@
+---
+import profileData from "../data/profile.json";
+import LinkCard from "../components/LinkCard.astro";
+import "../styles/profiles.css";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <meta name="title" content={profileData.seoTitle} />
+    <meta name="description" content={profileData.seoDescription} />
+    <meta name="theme-color" content="#121212" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Findee" />
+    <meta property="og:title" content={profileData.displayName} />
+    <meta property="og:description" content={profileData.seoDescription} />
+    <meta property="og:locale" content="en_US" />
+
+    <link
+      rel="shortcut icon"
+      href="https://cdn.discordapp.com/emojis/855680475792277534.webp"
+    />
+    <title>{profileData.seoTitle}</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <img src={profileData.avatarUrl} alt="findimg" />
+        <h3><span>@</span> {profileData.displayName}</h3>
+        <span>{profileData.bio}</span>
+      </header>
+      <nav class="find-nav">
+        <ul>
+          {
+            profileData.links.map((link) => (
+              <li>
+                <LinkCard
+                  title={link.title}
+                  subtitle={link.subtitle}
+                  url={link.url}
+                  icon={link.icon}
+                  color={link.color}
+                />
+              </li>
+            ))
+          }
+        </ul>
+      </nav>
+    </main>
+  </body>
+</html>

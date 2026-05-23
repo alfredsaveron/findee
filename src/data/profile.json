@@ -1,0 +1,58 @@
+{
+  "displayName": "alfredsaveron",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/57676676?v=4",
+  "bio": "Developer, author, husband..",
+  "seoTitle": "Alf",
+  "seoDescription": "Student interested in Internet culture, games, technologies and frontend development with loves of open-source.",
+  "links": [
+    {
+      "title": "Portfolio",
+      "subtitle": "Personal website & portfolio",
+      "url": "https://ege.rip",
+      "icon": "portfolio",
+      "color": "315.12,49.8%,50%"
+    },
+    {
+      "title": "Twitter / X",
+      "subtitle": "Short-form social updates",
+      "url": "https://twitter.com/alfredsaveron",
+      "icon": "twitter",
+      "color": "205.64,95.26%,49.61%"
+    },
+    {
+      "title": "GitHub",
+      "subtitle": "Code repositories & work",
+      "url": "https://github.com/alfredsaveron",
+      "icon": "github",
+      "color": "0,0%,100%"
+    },
+    {
+      "title": "Discord",
+      "subtitle": "Chat servers & communities",
+      "url": "https://discord.com/users/408005465423872001",
+      "icon": "discord",
+      "color": "234.94,85.56%,64.71%"
+    },
+    {
+      "title": "Crowdin",
+      "subtitle": "Translation & localization",
+      "url": "https://crowdin.com/profile/alfredsaveron",
+      "icon": "crowdin",
+      "color": "120,34.68%,48.63%"
+    },
+    {
+      "title": "LinkedIn",
+      "subtitle": "Professional bio & career",
+      "url": "https://www.linkedin.com/in/alfredsaveron/",
+      "icon": "linkedin",
+      "color": "205.64,95.26%,49.61%"
+    },
+    {
+      "title": "Last.fm",
+      "subtitle": "Music scrobble tracking",
+      "url": "https://www.last.fm/user/alfredsaveron",
+      "icon": "lastfm",
+      "color": "0,79.57%,36.47%"
+    }
+  ]
+}

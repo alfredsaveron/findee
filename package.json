@@ -1,0 +1,17 @@
+{
+  "name": "findee",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev --port 3000",
+    "start": "astro dev --port 3000",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@iconify-json/lucide": "^1.2.109",
+    "@iconify-json/simple-icons": "^1.2.83",
+    "astro": "^4.8.0",
+    "astro-icon": "^1.1.5"
+  }
+}

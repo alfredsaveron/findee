@@ -1,0 +1,141 @@
+---
+import services from "../data/services.json";
+import LinkCard from "../components/LinkCard.astro";
+import { Icon } from "astro-icon/components";
+import "../styles/profiles.css";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="title" content="Discover Cards" />
+    <meta
+      name="description"
+      content="Explore and search all supported templates."
+    />
+    <link
+      rel="shortcut icon"
+      href="https://cdn.discordapp.com/emojis/855680475792277534.webp"
+    />
+    <title>Discover Cards</title>
+  </head>
+  <body>
+    <main class="discover-main">
+      <section class="controls-container">
+        <div class="search-wrapper">
+          <Icon
+            name="lucide:search"
+            class="search-icon"
+            width="18"
+            height="18"
+          />
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Search..."
+            autocomplete="off"
+          />
+        </div>
+
+        <div class="filter-bar">
+          <button class="filter-pill active" data-category="all">All</button>
+          <button class="filter-pill" data-category="social"
+            >Social Media</button
+          >
+          <button class="filter-pill" data-category="development"
+            >Development</button
+          >
+          <button class="filter-pill" data-category="gaming">Gaming</button>
+          <button class="filter-pill" data-category="music">Music</button>
+          <button class="filter-pill" data-category="tv">TV & Streaming</button>
+          <button class="filter-pill" data-category="mail">Mail</button>
+          <button class="filter-pill" data-category="finance">Finance</button>
+        </div>
+      </section>
+
+      <nav class="find-nav">
+        <ul id="cards-list">
+          {
+            services.map((service) => (
+              <li
+                data-title={service.title.toLowerCase()}
+                data-subtitle={service.subtitle.toLowerCase()}
+                data-category={service.category}
+              >
+                <LinkCard
+                  title={service.title}
+                  subtitle={service.subtitle}
+                  url="#"
+                  icon={service.icon}
+                  color={service.color}
+                />
+              </li>
+            ))
+          }
+        </ul>
+
+        <div id="no-results-message" class="hidden no-results">
+          <Icon name="lucide:search-x" class="no-results-icon" />
+          <p>Whoops! No templates found.</p>
+        </div>
+      </nav>
+    </main>
+
+    <script>
+      const searchInput = document.getElementById(
+        "search-input",
+      ) as HTMLInputElement;
+      const filterPills = document.querySelectorAll(".filter-pill");
+      const cardsList = document.getElementById("cards-list");
+      const cardItems = cardsList ? Array.from(cardsList.children) : [];
+      const noResults = document.getElementById("no-results-message");
+
+      let activeCategory = "all";
+      let searchQuery = "";
+
+      function filterCards() {
+        let visibleCount = 0;
+
+        cardItems.forEach((item) => {
+          const title = item.getAttribute("data-title") || "";
+          const subtitle = item.getAttribute("data-subtitle") || "";
+          const category = item.getAttribute("data-category") || "";
+
+          const matchesSearch =
+            title.includes(searchQuery) || subtitle.includes(searchQuery);
+          const matchesCategory =
+            activeCategory === "all" || category === activeCategory;
+
+          if (matchesSearch && matchesCategory) {
+            item.classList.remove("hidden");
+            visibleCount++;
+          } else {
+            item.classList.add("hidden");
+          }
+        });
+
+        if (visibleCount === 0) {
+          noResults?.classList.remove("hidden");
+        } else {
+          noResults?.classList.add("hidden");
+        }
+      }
+
+      searchInput?.addEventListener("input", (e) => {
+        searchQuery = (e.target as HTMLInputElement).value.toLowerCase().trim();
+        filterCards();
+      });
+
+      filterPills.forEach((pill) => {
+        pill.addEventListener("click", (e) => {
+          filterPills.forEach((p) => p.classList.remove("active"));
+          const button = e.currentTarget as HTMLButtonElement;
+          button.classList.add("active");
+          activeCategory = button.getAttribute("data-category") || "all";
+          filterCards();
+        });
+      });
+    </script>
+  </body>
+</html>
