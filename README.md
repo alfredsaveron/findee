@@ -83,7 +83,6 @@ You can search, filter, and discover all these on `/discover`!
 ![Slack](https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=slack&logoColor=white)
 ![Crowdin](https://img.shields.io/badge/Crowdin-002E4E?style=flat-square&logo=crowdin&logoColor=white)
 ![Medium](https://img.shields.io/badge/Medium-12100E?style=flat-square&logo=medium&logoColor=white)
-![Portfolio](https://img.shields.io/badge/Portfolio-315.12,49.8%25,50%25-green?style=flat-square)
 
 ### Gaming
 ![Discord](https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white)
@@ -92,7 +91,6 @@ You can search, filter, and discover all these on `/discover`!
 ![PlayStation](https://img.shields.io/badge/PlayStation-003791?style=flat-square&logo=playstation&logoColor=white)
 ![Nintendo](https://img.shields.io/badge/Nintendo-E60012?style=flat-square&logo=nintendo&logoColor=white)
 ![Epic Games](https://img.shields.io/badge/Epic_Games-000000?style=flat-square&logo=epicgames&logoColor=white)
-![Habbo](https://img.shields.io/badge/Habbo-FDB913?style=flat-square)
 
 ### Music
 ![Spotify](https://img.shields.io/badge/Spotify-1DB954?style=flat-square&logo=spotify&logoColor=white)
