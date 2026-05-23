@@ -21,14 +21,14 @@ import "../styles/profiles.css";
 
     <link
       rel="shortcut icon"
-      href="https://cdn.discordapp.com/emojis/855680475792277534.webp"
+      href="/favicon.svg"
     />
     <title>{profileData.seoTitle}</title>
   </head>
   <body>
     <main>
       <header>
-        <img src={profileData.avatarUrl} alt="findimg" />
+        <img class="profile-avatar" src={profileData.avatarUrl} alt={`${profileData.displayName}'s avatar`} />
         <h3><span>@</span> {profileData.displayName}</h3>
         <span>{profileData.bio}</span>
       </header>

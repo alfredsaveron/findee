@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Poppins:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
 
 :root {
   --app-bg: #121212;
@@ -27,7 +27,7 @@ html {
 
 body {
   font-size: 0.94rem;
-  font-family: Poppins, Noto Sans, sans-serif;
+  font-family: Poppins, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   text-align: center;
   line-height: 1.5;
   background: var(--app-bg);
@@ -42,7 +42,7 @@ main {
   padding: 12vh 0;
 }
 
-img[alt="findimg"] {
+.profile-avatar {
   --scale: 164px;
   width: var(--scale);
   height: var(--scale);
@@ -50,7 +50,7 @@ img[alt="findimg"] {
   border: 1px solid var(--card-border-thin);
 }
 
-img[alt="findimg"]+h3 {
+.profile-avatar+h3 {
   margin: 16px 0 0px;
   color: var(--pure-white);
   font-weight: 700;
@@ -187,7 +187,7 @@ img[alt="findimg"]+h3 {
   font-family: Poppins, sans-serif;
   background: var(--card-background);
   border: 1.5px solid var(--card-border-thin);
-  border-radius: 12px;
+  border-radius: 10px;
   color: var(--pure-white);
   outline: none;
   transition: all 0.2s ease;
@@ -232,14 +232,14 @@ img[alt="findimg"]+h3 {
   transition: all 0.2s ease;
 }
 
-.filter-pill:hover,
-.filter-pill.active {
+.filter-pill:hover {
   border-color: var(--gray-dark);
   color: var(--pure-white);
-  background: var(--card-background);
 }
 
 .filter-pill.active {
+  border-color: var(--gray-dark);
+  color: var(--pure-white);
   background: var(--gray-dark);
 }
 

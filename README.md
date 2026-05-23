@@ -12,7 +12,7 @@ A lightweight, self-hosted **Linktree alternative** built with **Astro**. Optimi
 ## Key Features
 - ⚙️ **JSON-Driven Profile:** Update your bio, social connections, and URLs in one place (`src/data/profile.json`). No coding needed.
 - 🔍 **Dynamic Discover Page:** Real-time client-side search and category filtering page at `/discover` powered by instant vanilla JS.
-- 📦 **Astro Icons Entegration:** Uses native server-side brand SVGs dynamically via `astro-icon`.
+- 📦 **Astro Icon Integration:** Uses native server-side brand SVGs dynamically via `astro-icon`.
 
 ---
 
