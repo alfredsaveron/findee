@@ -6,9 +6,9 @@
 A lightweight, self-hosted **Linktree alternative** built with **Astro**. Optimized for speed, visuals, and dynamic configuration.
 
 <p align="center">
-  <img src="img/1.png" alt="Demo Profile" width="47%" />
+  <img src="img/1.png" alt="Demo Profile" width="55%" />
   &nbsp;&nbsp;
-  <img src="img/2.png" alt="Discover Page" width="47%" />
+  <img src="img/2.png" alt="Discover Page" width="55%" />
 </p>
 
 ## Key Features
