@@ -6,9 +6,7 @@
 A lightweight, self-hosted **Linktree alternative** built with **Astro**. Optimized for speed, visuals, and dynamic configuration.
 
 <p align="center">
-  <img src="img/1.png" alt="Demo Profile" width="55%" />
-  &nbsp;&nbsp;
-  <img src="img/2.png" alt="Discover Page" width="55%" />
+  <img src="img/1.png" alt="Demo Profile" width="100%" />
 </p>
 
 ## Key Features
@@ -65,6 +63,10 @@ To customize your profile homepage, simply edit [src/data/profile.json](src/data
 ```
 
 ---
+
+<p align="center">
+  <img src="img/2.png" alt="Discover Page" width="100%" />
+</p>
 
 ## Services
 
