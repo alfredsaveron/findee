@@ -1,20 +1,19 @@
+<p align="center">
+  <img src="img/banner.png" alt="Banner Project" width="100%" />
+</p>
+
 # findee 🌍🔗
 
-[![Astro](https://img.shields.io/badge/Astro-v4.16-FF5D01?style=flat-square&logo=astro&logoColor=white)](https://astro.build/)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE.md)
-
 A lightweight, self-hosted **Linktree alternative** built with **Astro**. Optimized for speed, visuals, and dynamic configuration.
-
-<p align="center">
-  <img src="img/1.png" alt="Demo Profile" width="100%" />
-</p>
 
 ## Key Features
 - ⚙️ **JSON-Driven Profile:** Update your bio, social connections, and URLs in one place (`src/data/profile.json`). No coding needed.
 - 🔍 **Dynamic Discover Page:** Real-time client-side search and category filtering page at `/discover` powered by instant vanilla JS.
 - 📦 **Astro Icon Integration:** Uses native server-side brand SVGs dynamically via `astro-icon`.
 
----
+[![Astro](https://img.shields.io/badge/Astro-v4.16-FF5D01?style=flat-square&logo=astro&logoColor=white)](https://astro.build/)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE.md)
+
 
 ## Get Started
 
@@ -36,8 +35,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 npm run build
 npm run preview
 ```
-
----
 
 ## Configuration
 
@@ -61,12 +58,6 @@ To customize your profile homepage, simply edit [src/data/profile.json](src/data
   ]
 }
 ```
-
----
-
-<p align="center">
-  <img src="img/2.png" alt="Discover Page" width="100%" />
-</p>
 
 ## Services
 
@@ -127,8 +118,6 @@ You can search, filter, and discover all these on `/discover`!
 ![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-FF813F?style=flat-square&logo=buymeacoffee&logoColor=white)
 ![WillHaben](https://img.shields.io/badge/WillHaben-0050F0?style=flat-square)
 ![Amazon](https://img.shields.io/badge/Amazon-FF9900?style=flat-square&logo=amazon&logoColor=white)
-
----
 
 ## License
 
